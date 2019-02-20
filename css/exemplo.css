@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+body{
+    background-color: palevioletred;
+}
+header{
+    background-color: black;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+    
+    padding: 0 10%;
+    padding-bottom: 10px;
+}
+
+header img{
+    height: 80px;
+    margin-top: 10px;
+     }
+   
+header nav{
+    display: flex;
+
+    height: 10vh;
+    
+    
+}
+header nav a {
+    text-align: center;
+    padding: 35px 15px 20px 15px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    background-color: #fe3500;
+    border-radius: 0 0 8px 8px;  
+}
